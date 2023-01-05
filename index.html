@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/70625c0598.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-angle-left"></i></li>
+                    <li><h1>PROFILE</h1></li>
+                    <li><i class="fa-solid fa-bars"></i></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="person">
+                <div id="profile-picture">
+               </div>
+               <div id="profile-info">
+                    <h2>Jonah Krazynsk</h2>
+                    <ul>
+                        <li>NY</li>
+                        <li>Male</li>
+                        <li>Born 31.12.1992</li>
+                    </ul>
+               </div>
+            </section>
+            <section id="status">
+                <div id="activity" onmouseover="fill()" onmouseout= "unfill()">
+                    <h3>Activity Level</h3>
+                    <ul>
+                        <li><div class="block"></div></li>
+                        <li><div class="block"></div></li>
+                        <li><div class="block third"> <div id="half-full"></div></div></li>
+                        <li><div class="block fourth"><div id="empty"></div></div></li>
+                    </ul>
+                </div>
+                <div id="likes">
+                    <ul>
+                        <li><i class="fa-solid fa-message"><span>+8000</span></i></li>
+                        <li><i class="fa-solid fa-user-group"><span>+8000</span></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"><span>+8000</span></i></li>
+                    </ul>
+                </div>
+                <p>Random profile description. I'm lazy so I think it's ok to not put anything. But I have put something here anyway. I don't know why I keep writing things here, but it ended up as beign a good space filler and a good description anyway.</p>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+            <button>FOLLOW ME</button>
+        </footer>
+        <script src="script/script.js"></script>
+    </div>
+</body>
+</html>
